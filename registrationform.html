@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Registration Form</title>
+</head>
+<body style="background-color: cyan; text-align: center;">
+    <h1>Course Registration Form</h1>
+    <h4>Created By Keerthi Vasan</h4>
+    <form>
+        <table align="center">
+            <tr>
+                <th>Name</th>
+                <td><input type="text" placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <select name="Gender" required>
+                        <option value="">Select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>USN</th>
+                <td><input type="text" placeholder="Enter USN" required></td>
+            </tr>
+            <tr>
+                <th>DOB</th>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <th>AGE</th>
+                <td><input type="number" placeholder="0" min="0" required></td>
+            </tr>
+            <tr>
+                <th>Select Course</th>
+                <td>
+                    <select name="Course" required>
+                        <option value="">Select</option>
+                        <option value="WEB Programming">WEB Programming</option>
+                        <option value="Software Development">Software Development</option>
+                        <option value="Graphic Designer">Graphic Designer</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                        <option value="Data Science">Data Science</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td><input type="tel" placeholder="Enter phone number" required></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" placeholder="Enter email" required></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><textarea name="Address" rows="4" cols="30" placeholder="Enter address" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
